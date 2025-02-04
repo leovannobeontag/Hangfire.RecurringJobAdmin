@@ -4,6 +4,12 @@
     left: 0px !important;
 }
 
+
+div#app { /* Fix for https://github.com/bamotav/Hangfire.RecurringJobAdmin/issues/100*/
+    left: 0 !important;
+}
+
+
 #app > div > div {
     margin-top: 30px !important;
     width: 100% !important;
